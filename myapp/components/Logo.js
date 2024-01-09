@@ -3,7 +3,9 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <Link href={'/'}>
+    <Link
+    className='cursor-pointer'
+    href={'/'}>
         Logo
     </Link>
   )
